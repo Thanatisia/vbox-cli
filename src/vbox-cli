@@ -20,6 +20,7 @@ def setup():
 def main():
     print("Hello World")
     vboxcli = vbox_wrapper.VirtualBox()
+    vboxcli.list_vms()
 
 if __name__ == "__main__":
     setup()
