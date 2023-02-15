@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 Run all Unit Test cases
 """
@@ -8,10 +7,9 @@ import os
 import sys
 import unittest
 ## Project
-sys.path.append("src")
-sys.path.append("src/lib")
-import vbox
-import cli
+sys.path.insert(1, "../src")
+import lib.vbox as vbox
+import lib.cli as cli
 
 class UnitTest_VBox():
     def test_import_unittest_vbox(self):

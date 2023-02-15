@@ -1,5 +1,7 @@
-#!/usr/bin/env python3
-
+#!python
+"""
+VirtualBox CLI manager utility to streamline virtualbox features and actions
+"""
 ## Import Libraries
 ### Built-in
 import os
@@ -25,3 +27,4 @@ def main():
 if __name__ == "__main__":
     setup()
     main()
+

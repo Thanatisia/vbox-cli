@@ -1,4 +1,6 @@
-#!python3
+"""
+VirtualBox-related wrapper library
+"""
 ## Import Libraries
 ### Built-In
 import os

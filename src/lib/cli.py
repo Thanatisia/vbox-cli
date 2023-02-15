@@ -1,4 +1,3 @@
-#!python3
 """
 CLI Subprocesses utility library
 """
